@@ -8,3 +8,5 @@ In order to run this program you first need to install some modules:
         (pip install opencv-python)
     • cvzone
         (pip install cvzone)
+    • Mediapipe
+        (pip install mediapipe)
