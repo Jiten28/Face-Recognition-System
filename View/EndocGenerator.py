@@ -1,5 +1,5 @@
 import cv2
-# import face_recognition as fr
+import face_recognition as fr
 import os
 import pickle
 
@@ -15,4 +15,17 @@ for path in pathList:
     imgList.append(cv2.imread(os.path.join(folderPath,path)))
     # print(os.path.splitext(path)[0])
     studentIds.append(os.path.splitext(path)[0])
-print(len(studentIds))
+# print(len(studentIds))
+
+def fileEncodings(imagesList):
+    encoderList = [ ]
+    for img in imagesList:
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        encode = fr.face_encodings(img)[0]
+        encoderList.append(encode)
+    return encoderList
+
+print("Encoding Start")
+encoderListKnown = fileEncodings(imgList)
+print(encoderListKnown)
+print("Encoding Complete")
