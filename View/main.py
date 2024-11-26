@@ -14,7 +14,7 @@ imgModeList = [ ]
 
 for path in modePathList:
     imgModeList.append(cv2.imread(os.path.join(folderModePath,path)))
-print(len(imgModeList))
+# print(len(imgModeList))
 
 while True:
     success, img = cap.read()
