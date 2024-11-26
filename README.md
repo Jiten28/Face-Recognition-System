@@ -12,3 +12,7 @@ In order to run this program you first need to install some modules:
         (pip install cvzone)
     • Mediapipe
         (pip install mediapipe)
+    • Face Recognition
+        (pip install face-recognition)
+        for windows user follow the below steps
+        https://www.geeksforgeeks.org/how-to-install-face-recognition-in-python-on-windows/
