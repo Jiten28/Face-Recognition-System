@@ -32,4 +32,50 @@ This project implements a Facial Recognition Attendance System, leveraging Pytho
 5. **Interact with the System**: The program will recognize faces and update attendance records in Firebase in real-time.
 6. **Exit the Program**: Stop the system after completing attendance management.
 
+### **Libraries and Installation Commands**
 
+1. **OpenCV (cv2)**
+   - **Install Command**:  
+     ```bash
+     pip install opencv-python
+     ```
+   - **Use**: For image and video processing.
+
+2. **cvzone**
+   - **Install Command**:  
+     ```bash
+     pip install cvzone
+     ```
+   - **Use**: Provides computer vision utilities to simplify development.
+
+3. **Mediapipe**
+   - **Install Command**:  
+     ```bash
+     pip install mediapipe
+     ```
+   - **Use**: Facilitates facial landmark detection and tracking.
+
+4. **Face Recognition**
+   - **Install Command**:  
+     ```bash
+     pip install face-recognition
+     ```
+   - **Use**: Enables facial recognition and comparison.
+   - **Note**: For Windows users, follow the detailed installation guide:
+     [GeeksforGeeks Face Recognition Installation Guide](https://www.geeksforgeeks.org/how-to-install-face-recognition-in-python-on-windows/)
+
+5. **CMake**
+   - **Install Command**:  
+     ```bash
+     pip install cmake
+     ```
+   - **Use**: Required for compiling the `dlib` library.
+
+6. **dlib**
+   - **Install Command**:  
+     ```bash
+     pip install dlib
+     ```
+   - **Use**: Provides tools for facial feature extraction and recognition.
+   - **Troubleshooting**: If issues arise during installation, refer to the repository:
+     [Dlib Installation Guide](https://github.com/Cfuhfsgh/Dlib-library-Installation)
