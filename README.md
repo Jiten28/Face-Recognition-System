@@ -24,3 +24,12 @@ This project implements a Facial Recognition Attendance System, leveraging Pytho
 ### **Python Version**
 - Python 3.11.9 or higher.
 
+### **Steps to Start the Project**
+1. **Install Python**: Ensure Python version 3.11.9 or higher is installed.
+2. **Install Required Libraries**: Use the installation commands provided below to set up the necessary Python modules.
+3. **Setup Firebase**: Configure Firebase for real-time attendance data management.
+4. **Run the Program**: Execute the Python script to start the facial recognition system.
+5. **Interact with the System**: The program will recognize faces and update attendance records in Firebase in real-time.
+6. **Exit the Program**: Stop the system after completing attendance management.
+
+
