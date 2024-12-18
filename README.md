@@ -15,3 +15,12 @@ This project implements a Facial Recognition Attendance System, leveraging Pytho
 - **Recognition Accuracy**: Ensuring high accuracy in diverse lighting conditions and varying facial features.
 - **Real-time Performance**: Balancing recognition accuracy with processing speed for smooth real-time operation.
 
+### **Future Enhancements**
+- **Multi-face Recognition**: Enhance the system to recognize and manage multiple faces simultaneously.
+- **Cloud Backup**: Add automated backups of attendance data to secure cloud storage.
+- **Emotion Recognition**: Integrate emotion detection for additional use cases, like mood analysis during attendance.
+- **Smart Alerts**: Notify users of anomalies, such as unrecognized faces or frequent absenteeism.
+
+### **Python Version**
+- Python 3.11.9 or higher.
+
