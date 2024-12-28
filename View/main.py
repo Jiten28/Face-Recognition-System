@@ -16,6 +16,13 @@ for path in modePathList:
     imgModeList.append(cv2.imread(os.path.join(folderModePath,path)))
 # print(len(imgModeList))
 
+#Load the encoding file
+file = 'EncodeFile.p'
+f = open(file, 'rb')
+encodeListKnownWithIds = pickle.load(f)
+f.close()
+print(encodeListKnownWithIds)
+
 while True:
     success, img = cap.read()
     
