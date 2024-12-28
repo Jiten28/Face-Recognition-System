@@ -25,7 +25,7 @@ def fileEncodings(imagesList):
         encoderList.append(encode)
     return encoderList
 
-print("Encoding Start")
+print("Encoding Start...")
 encoderListKnown = fileEncodings(imgList)
 encodeListKnownWithIds = [encoderListKnown, studentIds]
 print("Encoding Complete")
